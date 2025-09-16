@@ -1,0 +1,143 @@
+@media(max-width: 1200px) {
+    .main__path {
+        inset: 0;
+    }
+
+    .main-item:nth-child(4) {
+        top: 23%;
+        left: 30%;
+    }
+
+    .main-item:nth-child(2) {
+        top: 52%;
+        left: 5%;
+    }
+
+    .main-item:nth-child(3) {
+        top: 72%;
+        left: 35%;
+    }
+
+    .main-item:nth-child(6) {
+        top: 44%;
+        right: 11%;
+    }
+
+    .main__wrapper {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .header__logo-img {
+        width: 120px;
+    }
+
+    .header__list {
+        gap: 25px;
+    }
+
+    .header__list-item,
+    .header__list,
+    .header__link {
+        gap: 10px;
+    }
+
+    .header__list-item,
+    .header__list,
+    .popup-window__text {
+        font-size: 18px;
+    }
+
+
+
+    .big-title {
+        font-size: 60px;
+    }
+}
+
+
+@media(max-width: 976px) {
+
+    .main__wrapper,
+    .header__info {
+        display: none;
+    }
+
+
+    .main__slider {
+        display: block;
+    }
+
+    .big-title {
+        font-size: 35px;
+    }
+
+    .main-mobile {
+        display: flex;
+    }
+
+    .popup-window {
+        width: 90%;
+        max-height: 80vh;
+        height: 100%;
+        padding: 58px 17px 41px;
+
+        &__text {
+            overflow: auto;
+        }
+    }
+
+    .popup-window__text {
+        overflow-y: auto;
+        max-height: 65vh;
+        padding-right: 10px;
+        height: 100%;
+    }
+
+    .popup-window__close {
+        width: 41px;
+        height: 41px;
+        top: 12px;
+        right: 13px;
+    }
+
+    .popup-window__text::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .popup-window__text::-webkit-scrollbar-track {
+        background: #c8c8c8;
+        border-radius: 3px;
+    }
+
+    .popup-window__text::-webkit-scrollbar-thumb {
+        background-color: #606060;
+        border-radius: 3px;
+        border: 1.6px solid transparent;
+        background-clip: content-box;
+    }
+
+    .header__wrapper {
+        justify-content: space-between;
+    }
+
+    .main__burger {
+        display: flex;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .btn {
+        font-size: 20px;
+        width: 181px;
+        height: 42px;
+    }
+
+    .popup-window__text,
+    .main-mobile {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,104 @@
+@use 'vars' as *;
+@use 'fonts' as *;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-wrapper {
+    overflow: visible;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    flex-shrink: 0;
+}
+
+.swiper-button-prev {
+    flex-direction: row;
+}
+
+.swiper-button-next {
+    flex-direction: row-reverse;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: flex;
+    margin-top: 0 !important;
+    justify-content: flex-start;
+    width: max-content;
+    gap: 10px;
+    background-position: center;
+    position: static;
+
+    span {
+        font-size: 14px;
+        line-height: 1.3;
+        text-align: center;
+        color: #f6ffd2;
+    }
+}
+
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.stop-scroll {
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 10px;
+}
+
+.big-title {
+    font-family: "Actay Wide", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.btn {
+    background-color: var(--white);
+    height: 50px;
+    border-radius: 167px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+}
