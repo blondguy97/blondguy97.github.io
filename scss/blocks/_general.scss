@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    background-image: url('../images/wrapper-bg.png');
+    background-image: url('../images/wrapper-bg.webp');
 }
 
 .wrapper-overlay {
@@ -61,7 +61,7 @@ body {
         font-size: 20px;
     }
 
-    &__list-link {}
+
 
     &__link {
         font-size: 20px;
@@ -145,7 +145,6 @@ body {
         margin-bottom: 62px;
     }
 
-    &__items {}
 
     &__burger {
         display: none;
@@ -185,11 +184,6 @@ body {
 
     }
 
-    &__left-side {}
-
-    &__logo {}
-
-    &__logo-img {}
 
     &__right-side {
         display: flex;
@@ -197,9 +191,6 @@ body {
         gap: 10px;
     }
 
-    &__text {}
-
-    &__close {}
 
     &__list {
         text-align: center;
@@ -210,9 +201,6 @@ body {
 
     }
 
-    &__list-item {}
-
-    &__list-link {}
 
     &__link {
         margin: 0 auto;
@@ -352,7 +340,6 @@ body {
         }
     }
 
-    &__text {}
 }
 
 .wrapper-overlay,
