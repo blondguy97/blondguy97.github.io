@@ -56,11 +56,9 @@ body {
     }
 
     &__list-item {
-        font-family: "Actay", sans-serif;
-        font-weight: 400;
+
         font-size: 20px;
     }
-
 
 
     &__link {
@@ -284,7 +282,7 @@ body {
 
         span {
             font-size: 30px;
-            color: #f6ffd2;
+            color: var(--light-yellow);
         }
     }
 
@@ -292,7 +290,7 @@ body {
         font-size: 14px;
         line-height: 1.3;
         max-width: 195px;
-        color: #f6ffd2;
+        color: var(--light-yellow);
     }
 }
 
@@ -336,7 +334,7 @@ body {
         span {
             font-size: 45px;
             line-height: 1;
-            color: #f6ffd2;
+            color: var(--light-yellow);
         }
     }
 
@@ -384,6 +382,6 @@ body {
         font-size: 20px;
         line-height: 1.4;
         text-align: center;
-        color: #000;
+        color: var(--black);
     }
 }
