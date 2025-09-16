@@ -81,17 +81,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
     /* Слайдер */
 
     new Swiper('.main__slider', {
         loop: true,
         draggable: true,
-            slidesPerView: 1,
+        slidesPerView: 1,
         grabCursor: true,
         navigation: {
             nextEl: '.main__control .swiper-button-next',
             prevEl: '.main__control .swiper-button-prev',
+        },
+         autoplay: {
+            delay: 4000,        
+            disableOnInteraction: true, 
         },
         breakpoints: {
             576: {
